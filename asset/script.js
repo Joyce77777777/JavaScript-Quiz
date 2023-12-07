@@ -121,8 +121,5 @@ function resetQuiz() {
 }
 
 
-document.getElementById('submit-score').addEventListener('click', debug)
-function debug () {
-    let initials = document.getElementById('initials').value;
-    console.log(`Initials: ${initials}, Score: ${time}`);
-}
+console.log (this);
+console.log (document.body);
